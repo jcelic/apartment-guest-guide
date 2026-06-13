@@ -24,7 +24,7 @@ const GuideLayout = () => {
     end: true,
   });
 
-  if (isLoading) {
+  if (isLoading && !reservation) {
     return <FullPageLoader />;
   }
 
