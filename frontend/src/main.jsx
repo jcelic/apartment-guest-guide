@@ -22,7 +22,6 @@ registerSW({
 });
 
 window.addEventListener('beforeinstallprompt', (event) => {
-  console.log('beforeinstallprompt fired globally');
   event.preventDefault();
   window.deferredPrompt = event;
 });
