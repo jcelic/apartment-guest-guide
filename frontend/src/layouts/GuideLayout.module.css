@@ -1,0 +1,24 @@
+.container,
+.containerWide {
+  margin: 0 auto;
+  padding: 1rem 2rem 2.5rem;
+}
+
+.container {
+  max-width: var(--content-max-width);
+}
+
+.containerWide {
+  max-width: var(--page-max-width);
+}
+
+.main {
+  padding-top: var(--header-height);
+}
+
+@media (max-width: 450px) {
+  .container,
+  .containerWide {
+    padding: 1rem 1.5rem 2.5rem;
+  }
+}

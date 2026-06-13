@@ -1,0 +1,72 @@
+.header {
+  background: var(--color-header-bg);
+  color: var(--color-text-strong);
+  border-bottom: 1px solid var(--color-border);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: 0.6rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.titleBlock {
+  min-width: 0;
+}
+
+.header h1 {
+  font-size: clamp(1.45rem, 5vw, 1.7rem);
+  line-height: 1.05;
+  font-weight: 600;
+}
+
+.header p {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-top: 0.15rem;
+}
+
+.back {
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent-border);
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: background var(--transition-slow);
+}
+
+.back:hover {
+  background: var(--color-accent-hover);
+}
+
+.back svg {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 450px) {
+  .container {
+    padding: 0.55rem 1.5rem;
+  }
+
+  .header h1 {
+    font-size: 1.45rem;
+  }
+}

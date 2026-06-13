@@ -1,0 +1,136 @@
+.card {
+  min-height: 10.625rem;
+  padding: 1.375rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: box-shadow 0.25s ease;
+  opacity: 0;
+  animation: fadeUp 0.4s ease forwards;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-card-hover);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.625rem;
+}
+
+.icon svg {
+  width: 1.9rem;
+  height: 1.9rem;
+  color: var(--color-icon);
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-text);
+  line-height: 1.25;
+}
+
+.content p {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  line-height: 1.45;
+  max-width: 95%;
+}
+
+.content button,
+.content a {
+  margin-top: 0.625rem;
+}
+
+.content button {
+  background: var(--color-accent-soft);
+  border: none;
+  padding: 0.5rem 0.875rem;
+  font-size: 0.9rem;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.content button:hover {
+  background: var(--color-accent-soft-hover);
+}
+
+.fullCard {
+  grid-column: 1 / -1;
+}
+
+.highlightCard {
+  grid-column: 1 / -1;
+  background: var(--color-accent-bg);
+  min-height: 11.25rem;
+}
+
+.sideCard {
+  min-height: 10rem;
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+}
+
+.sideCard .icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 0;
+  border-radius: var(--radius-md);
+  background: var(--color-accent-icon);
+  flex-shrink: 0;
+}
+
+.sideCard .content {
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.sideCard .title {
+  margin: 0;
+}
+
+.sideCard .content p {
+  max-width: none;
+}
+
+.sideCard .content button,
+.sideCard .content a {
+  margin-top: 0.75rem;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

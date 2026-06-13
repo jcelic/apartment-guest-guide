@@ -1,0 +1,30 @@
+.steps {
+  margin-top: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+.photoBtn {
+  margin-top: 0.5rem;
+  align-self: flex-start;
+  background: var(--color-accent-soft);
+  border: none;
+  padding: 0.5rem 0.88rem;
+  font-size: 0.9rem;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background var(--transition-base);
+}
+
+.photoBtn:hover {
+  background: var(--color-accent-soft-hover);
+}
+
+@media (max-width: 37.5rem) {
+  .steps {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}

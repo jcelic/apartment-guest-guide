@@ -1,0 +1,476 @@
+{
+  "header": {
+    "apartmentName": "Apartment Matea with terrace",
+    "guestGuide": "Your Guest Guide",
+    "home": "Home"
+  },
+  "common": {
+    "viewPhoto": "View photo",
+    "openInGoogleMaps": "Open in Google Maps",
+    "messageUsOnWhatsApp": "Message us on WhatsApp"
+  },
+  "floatingActions": {
+    "languages": {
+      "en": "English",
+      "hr": "Hrvatski",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "fr": "Français",
+      "es": "Español",
+      "zh": "中文"
+    }
+  },
+  "home": {
+    "pageTitle": "Guest Guide",
+    "subtitle": "Welcome! Here you'll find everything you need for your stay.",
+    "cards": {
+      "arrival": {
+        "title": "Arrival",
+        "desc": "Arrival & entry details"
+      },
+      "parking": {
+        "title": "Parking",
+        "desc": "How parking works"
+      },
+      "wifi": {
+        "title": "Wi-Fi",
+        "desc": "Network & password"
+      },
+      "apartmentInfo": {
+        "title": "Apartment",
+        "desc": "Equipment & Essentials"
+      },
+      "tv": {
+        "title": "TV",
+        "desc": "Channels & streaming"
+      },
+      "coffeeMaker": {
+        "title": "Coffee Maker",
+        "desc": "How to make coffee"
+      },
+      "dishwasher": {
+        "title": "Dishwasher",
+        "desc": "Capsules & programs"
+      },
+      "houseRules": {
+        "title": "House Rules",
+        "desc": "Rules for your stay"
+      },
+      "checkout": {
+        "title": "Check-out",
+        "desc": "Before you leave"
+      },
+      "explore": {
+        "title": "Explore Zadar",
+        "description": "Places & services"
+      },
+      "emergency": {
+        "title": "Emergency",
+        "description": "Emergency contacts"
+      },
+      "installGuide": {
+        "title": "Install Guide",
+        "description": "Add to Home Screen"
+      }
+    }
+  },
+  "arrival": {
+    "title": "Arrival",
+    "subtitle": "Check-in details, directions, and access instructions.",
+    "checkinLabel": "Check-in:",
+    "checkinText": "After",
+    "earlyReady": "If the apartment is ready earlier, we’ll let you know.",
+    "entrancePathDescription": "Exterior view of the building.",
+    "apartmentSlidesDescription": "Elevator and staircase",
+    "lockboxSlidesDescription": "Apartment door and lockbox.",
+    "enterBuilding": "Enter the Building",
+    "address": "Polačišće 11",
+    "entranceText": "The entrance is on the inside of the building, not on the street side.",
+    "viewEntrancePath": "View entrance path",
+    "showEntranceCode": "Show entrance code",
+    "findApartment": "Find the Apartment",
+    "apartmentLocationText": "The apartment is located on the 3rd floor, to the left of the elevator. If you take the elevator, it will be immediately on your right. The name \"Doe\" is on the door.",
+    "viewApartmentLocation": "Apartment location",
+    "viewLockbox": "View lockbox",
+    "showLockboxCode": "Show lockbox code",
+    "letUsKnow": "Let us know you arrived",
+    "arrivalMessage": "Please send us a quick message when you enter the apartment so we can register your arrival in eVisitor.",
+    "whatsappArrivalText": "Hi! We have just arrived at the apartment."
+  },
+  "parking": {
+    "title": "Parking",
+    "subtitle": "Where to park and what to keep in mind."
+  },
+  "wifi": {
+    "title": "Wi-Fi",
+    "subtitle": "Network details and the Wi-Fi password.",
+    "networkName": "Network name",
+    "networkPassword": "Network password",
+    "passwordCopied": "Wi-Fi password copied",
+    "copyError": "Could not copy password"
+  },
+  "apartmentInfo": {
+    "title": "Apartment Info",
+    "subtitle": "Find common household items and supplies.",
+    "items": {
+      "ironingBoard": {
+        "title": "Ironing board",
+        "text": "Behind the kitchen door, next to the trash bin."
+      },
+      "applianceManuals": {
+        "title": "Appliance manuals",
+        "text": "In the left-side kitchen cabinet."
+      },
+      "firstAidKit": {
+        "title": "First aid kit",
+        "text": "Inside the TV stand, on the right side, behind the glass door."
+      },
+      "iron": {
+        "title": "Iron",
+        "text": "In the hallway cabinet next to the bathroom, on the left side."
+      },
+      "extraTowels": {
+        "title": "Extra towels",
+        "text": "In the hallway cabinet next to the bathroom, on the right side."
+      },
+      "hairDryer": {
+        "title": "Hair dryer",
+        "text": "In the bathroom, in the middle drawer under the sink."
+      },
+      "washingMachineCapsules": {
+        "title": "Washing machine capsules",
+        "text": "In the bathroom, in the first drawer under the sink."
+      }
+    }
+  },
+  "tv": {
+    "title": "TV",
+    "subtitle": "Quick guide to using the TV.",
+    "turnOn": {
+      "title": "Turn on the TV",
+      "text": "Use the small remote to turn the TV on or off."
+    },
+    "streaming": {
+      "title": "Streaming apps",
+      "text": "Select the YouTube, Netflix, or HBO Max icon on the home screen."
+    },
+    "channels": {
+      "title": "TV channels & EON",
+      "text": "Select the HDMI icon to open EON for TV channels and the EON library."
+    },
+    "remote": {
+      "text": "Use the larger remote only inside the EON app."
+    }
+  },
+  "coffeeMaker": {
+    "title": "Coffee Maker",
+    "subtitle": "How to use the Dolce Gusto coffee machine.",
+    "steps": [
+      {
+        "title": "Turn on the machine",
+        "text": "Press the power button. The light will blink red while the machine heats up."
+      },
+      {
+        "title": "Wait for the green light",
+        "text": "When the light turns green, the machine is ready to use."
+      },
+      {
+        "title": "Remove the capsule holder",
+        "text": "Lift the top cover and pull out the capsule holder."
+      },
+      {
+        "title": "Insert a capsule",
+        "text": "Place a coffee capsule inside the holder."
+      },
+      {
+        "title": "Reinsert the capsule holder",
+        "text": "Push the capsule holder back into the machine and close the top cover."
+      },
+      {
+        "title": "Select water level",
+        "text": "Move the selector up or down to match the number of bars shown on the capsule."
+      },
+      {
+        "title": "Place your cup",
+        "text": "Put your cup under the coffee outlet."
+      },
+      {
+        "title": "Make your coffee",
+        "text": "Move the lever to the red side for hot drinks. The machine will stop automatically."
+      },
+      {
+        "title": "Wait for the green light again",
+        "text": "Wait until the power button turns green before removing the capsule holder."
+      },
+      {
+        "title": "Remove the used capsule",
+        "text": "Lift the top cover, remove the capsule holder and throw away the used capsule. Do not leave used capsules inside the machine."
+      }
+    ],
+    "importantTitle": "☕ Important: Cappuccino & Chococino",
+    "twoCapsules": "These drinks use two capsules.",
+    "milkCapsuleFirst": "Use the milk capsule first.",
+    "waitGreenAgain": "Wait until the power button turns green again.",
+    "thenUseCapsule": "Then use the coffee or chocolate capsule.",
+    "waterTankTitle": "💧 Important: Water tank position",
+    "waterTankText1": "If you refill or remove the water tank, make sure it is fully seated back in place.",
+    "waterTankText2": "You can confirm it is positioned correctly when a few small air bubbles appear at the bottom of the tank after inserting it.",
+    "waterTankWarning": "If the tank is not seated properly, the coffee machine may not dispense water."
+  },
+  "dishwasher": {
+    "title": "Dishwasher",
+    "subtitle": "Quick guide for everyday dishwasher use.",
+    "intro": "Use one capsule, turn on the dishwasher, select a program, then press Start and close the door.",
+    "capsules": {
+      "title": "Dishwasher capsules",
+      "text": "Place one capsule in the detergent compartment. Capsules are located under the sink."
+    },
+    "turnOn": {
+      "title": "Turn on the dishwasher",
+      "text": "Press the power button (1)."
+    },
+    "selectProgram": {
+      "title": "Select program",
+      "text": "Press the PROGR. button (2) to select the desired program."
+    },
+    "start": {
+      "title": "Start the dishwasher",
+      "text": "Press the START button (3), then close the dishwasher door."
+    },
+    "programsIntro": "Use one of the following programs depending on how dirty the dishes are.",
+    "table": {
+      "program": "Program",
+      "whenToUse": "When to use",
+      "p1": "P1 – Intensive 75°C",
+      "p1Use": "Very dirty dishes",
+      "p2": "P2 – Universal 50–60°C",
+      "p2Use": "Recommended for most loads",
+      "p3": "P3 – ECO 45°C",
+      "p3Use": "Energy-saving cycle",
+      "p4": "P4 – Rapid 24'",
+      "p4Use": "Quick wash"
+    },
+    "manualText": "For other programs, see the dishwasher manual in the kitchen cabinet or open the full manual below.",
+    "manualButton": "Full dishwasher manual (PDF)",
+    "alts": {
+      "power": "Dishwasher power button",
+      "program": "Dishwasher program button",
+      "start": "Dishwasher start button"
+    }
+  },
+  "houseRules": {
+    "title": "House Rules",
+    "subtitle": "A few simple rules to help keep the apartment comfortable for everyone.",
+    "checkinTimesTitle": "Check-in & Check-out Times",
+    "checkinCheckoutCardTitle": "Check-in / Check-out",
+    "checkinAfter": "Check-in: after",
+    "checkoutBy": "Check-out: by",
+    "respectTimes": "Please respect these times so we have enough time to prepare the apartment for the next guests.",
+    "noiseTitle": "Noise & Neighbors",
+    "quietHoursTitle": "Quiet hours & neighbors",
+    "quietHoursIntro": "Please respect quiet hours in the building:",
+    "noiseText1": "The apartment is located in a residential building with many permanent residents. We kindly ask you to keep noise at a respectful level, especially in the hallway, stairwells, and elevator.",
+    "noiseText2": "If traveling with children, please make sure they do not run or play loudly in the hallway, stairwells, or elevator, as noise travels easily through the building.",
+    "apartmentRulesTitle": "Apartment rules",
+    "noSmokingTitle": "No smoking inside",
+    "noSmokingText": "Smoking is not allowed inside the apartment. You may smoke only on the terrace.",
+    "lockDoorTitle": "Lock the door",
+    "lockDoorText": "Please always keep the apartment door locked, even when you are inside.",
+    "reportDamagesTitle": "Report damages",
+    "reportDamagesText": "If anything gets damaged during your stay, please let us know as soon as possible."
+  },
+  "checkout": {
+    "title": "Check-out",
+    "subtitle": "A few quick things to do before you leave.",
+    "checkoutTimeTitle": "Check-out time",
+    "checkoutTimeText": "Please leave the apartment by",
+    "checkoutTimeReason": "so we have enough time to prepare it for the next guests arriving that day.",
+    "turnOffAcTitle": "Turn off AC",
+    "turnOffAcText": "Please switch off the air conditioning.",
+    "closeWindowsTitle": "Close windows",
+    "closeWindowsText": "Please close all windows and terrace doors before leaving.",
+    "turnOffLightsTitle": "Turn off lights",
+    "turnOffLightsText": "Please turn off all lights.",
+    "parkingCardTitle": "Parking card",
+    "parkingCardText": "If you used the parking card, please leave it in mailbox no. 14.",
+    "lockDoorTitle": "Lock the door",
+    "lockDoorText": "Make sure the apartment is locked.",
+    "returnKeyTitle": "Return the key",
+    "returnKeyText": "Put the key back in the lockbox and scramble the digits.",
+    "leaveMessageTitle": "Let us know when you leave",
+    "leaveMessageText": "Please send us a message when you leave so we know the apartment is free for cleaning.",
+    "whatsappLeaveText": "Hi! We have just left the apartment."
+  },
+  "explore": {
+    "title": "Explore Zadar",
+    "subtitle": "Places, services and attractions in Zadar.",
+    "openInMaps": "Open in Google Maps",
+    "categories": {
+      "beaches": "Beaches",
+      "food": "Food & drinks",
+      "stores": "Stores",
+      "attractions": "Attractions",
+      "health": "Health"
+    },
+    "places": {
+      "kolovare": {
+        "name": "Kolovare Beach",
+        "badge": "14 min walk",
+        "text": "The most popular city beach with crystal-clear water, shaded areas and cafés nearby."
+      },
+      "borik": {
+        "name": "Borik Beach",
+        "badge": "13 min drive",
+        "text": "Family-friendly beach with shallow water, nearby restaurants and plenty of amenities."
+      },
+      "uskok": {
+        "name": "Uskok Beach",
+        "badge": "13 min drive",
+        "text": "A lively beach in the Puntamika area, popular for swimming, sunbathing and beach bars."
+      },
+      "butler": {
+        "name": "Butler Gourmet & Cocktails",
+        "badge": "Cocktails & dining",
+        "text": "Modern restaurant and cocktail bar with a stylish atmosphere and creative dishes."
+      },
+      "harbor": {
+        "name": "Harbor CookHouse",
+        "badge": "Waterfront dining",
+        "text": "Popular waterfront restaurant known for excellent burgers, steaks and cocktails."
+      },
+      "bruschetta": {
+        "name": "Bruschetta",
+        "badge": "Mediterranean cuisine",
+        "text": "One of Zadar’s best-known restaurants, serving Mediterranean cuisine by the sea."
+      },
+      "fosa": {
+        "name": "Foša",
+        "badge": "Fine dining",
+        "text": "Fine dining restaurant located beside the historic city walls and harbour."
+      },
+      "kantuna": {
+        "name": "4 Kantuna",
+        "badge": "Dalmatian cuisine",
+        "text": "Traditional Dalmatian restaurant offering local dishes in the heart of the Old Town."
+      },
+      "garden": {
+        "name": "The Garden Lounge",
+        "badge": "Sunset cocktails",
+        "text": "The perfect place for sunset cocktails with panoramic sea views."
+      },
+      "supernova": {
+        "name": "Supernova Zadar",
+        "badge": "Shopping centre",
+        "text": "The largest shopping centre in Zadar with supermarkets, restaurants and many stores."
+      },
+      "lidl": {
+        "name": "Lidl",
+        "badge": "Everyday groceries",
+        "text": "Popular supermarket for groceries, drinks and everyday essentials."
+      },
+      "kaufland": {
+        "name": "Kaufland",
+        "badge": "Wide selection",
+        "text": "Large supermarket offering groceries, household items and fresh produce."
+      },
+      "cityGalleria": {
+        "name": "City Galleria",
+        "badge": "Shopping & market",
+        "text": "Shopping centre with stores, cafés and a local market."
+      },
+      "seaOrgan": {
+        "name": "Sea Organ",
+        "badge": "Must visit",
+        "text": "A unique architectural installation that creates music using sea waves."
+      },
+      "greetingSun": {
+        "name": "Greeting to the Sun",
+        "badge": "Sunset spot",
+        "text": "A solar-powered light installation best experienced at sunset."
+      },
+      "donat": {
+        "name": "St. Donatus Church",
+        "badge": "Historic landmark",
+        "text": "The symbol of Zadar and one of Croatia’s most important pre-Romanesque churches."
+      },
+      "forum": {
+        "name": "Roman Forum",
+        "badge": "Ancient ruins",
+        "text": "The largest Roman forum on the eastern Adriatic coast."
+      },
+      "peoplesSquare": {
+        "name": "People’s Square",
+        "badge": "City centre",
+        "text": "The historic heart of Zadar surrounded by cafés and local life."
+      },
+      "kalelarga": {
+        "name": "Kalelarga",
+        "badge": "Old Town",
+        "text": "Zadar’s most famous street and the centre of city life."
+      },
+      "cathedral": {
+        "name": "St. Anastasia Cathedral",
+        "badge": "Cathedral",
+        "text": "The largest cathedral in Dalmatia with a bell tower offering city views."
+      },
+      "landGate": {
+        "name": "Land Gate",
+        "badge": "Historic gate",
+        "text": "The historic entrance to the Old Town and part of Zadar’s Venetian fortifications."
+      },
+      "farmacia": {
+        "name": "Farmacia City Galleria",
+        "badge": "No prescriptions",
+        "text": "For pain relief, vitamins, cosmetics, sunscreen and everyday health essentials. Prescription medication is not available."
+      },
+      "jadranPharmacy": {
+        "name": "Jadran Pharmacy",
+        "badge": "24/7 pharmacy",
+        "text": "Open day and night, including weekends and public holidays. Prescription and non-prescription medication available."
+      },
+      "emergency": {
+        "name": "Emergency Department",
+        "badge": "Emergency care",
+        "text": "For urgent medical situations requiring immediate treatment at Zadar General Hospital."
+      },
+      "touristClinic": {
+        "name": "Tourist Clinic",
+        "badge": "Non-emergency care",
+        "text": "Medical care for tourists and visitors with non-emergency health concerns, including weekends and public holidays."
+      }
+    }
+  },
+  "emergency": {
+    "title": "Emergency Contacts",
+    "subtitle": "Important emergency phone numbers in Croatia.",
+    "infoText": "In any emergency, call 112. Operators can connect you with police, ambulance or fire services.",
+    "contacts": {
+      "general": {
+        "title": "General emergency",
+        "description": "For any emergency in Croatia."
+      },
+      "ambulance": {
+        "title": "Ambulance",
+        "description": "For urgent medical emergencies."
+      },
+      "police": {
+        "title": "Police",
+        "description": "For police assistance and safety issues."
+      },
+      "fire": {
+        "title": "Fire brigade",
+        "description": "For fire, smoke or rescue situations."
+      }
+    },
+    "call": "Call"
+  },
+  "invalidLink": {
+    "title": "Guest guide unavailable",
+    "description": "This guest guide link is invalid, expired, or no longer available.",
+    "help": "Please check the link from your reservation or contact your host."
+  },
+  "loader": {
+    "title": "Loading guide",
+    "description": "Please wait while we prepare your guest guide."
+  }
+}
