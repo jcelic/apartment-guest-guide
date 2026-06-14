@@ -1,0 +1,46 @@
+.page {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  background: var(--color-bg);
+}
+
+.card {
+  width: 100%;
+  max-width: 460px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  border-radius: var(--radius-card);
+  background: var(--color-surface-white);
+  box-shadow: var(--shadow-modal);
+}
+
+.icon {
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 1.25rem;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-pill);
+  background: var(--color-accent-border);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card h1 {
+  margin: 0 0 0.75rem;
+  color: var(--color-text-brown);
+  font-size: 1.6rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--color-text-soft);
+  line-height: 1.6;
+}
+
+.small {
+  margin-top: 1rem !important;
+  font-size: 0.95rem;
+}

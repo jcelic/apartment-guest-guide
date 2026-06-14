@@ -1,0 +1,488 @@
+{
+  "header": {
+    "apartmentName": "Matea露台公寓",
+    "guestGuide": "入住指南",
+    "home": "首页"
+  },
+
+  "common": {
+    "viewPhoto": "查看照片",
+    "openInGoogleMaps": "在 Google 地图中打开",
+    "messageUsOnWhatsApp": "通过 WhatsApp 联系我们"
+  },
+
+  "floatingActions": {
+    "languages": {
+      "en": "English",
+      "hr": "Hrvatski",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "fr": "Français",
+      "es": "Español",
+      "zh": "中文"
+    }
+  },
+
+  "home": {
+    "pageTitle": "入住指南",
+    "subtitle": "欢迎！这里可以找到您入住期间所需的全部信息。",
+    "cards": {
+      "arrival": {
+        "title": "入住",
+        "desc": "入住与门禁信息"
+      },
+      "parking": {
+        "title": "停车",
+        "desc": "停车说明"
+      },
+      "wifi": {
+        "title": "Wi-Fi",
+        "desc": "网络与密码"
+      },
+      "apartmentInfo": {
+        "title": "公寓信息",
+        "desc": "设施与用品"
+      },
+      "tv": {
+        "title": "电视",
+        "desc": "频道与流媒体"
+      },
+      "coffeeMaker": {
+        "title": "咖啡机",
+        "desc": "咖啡制作说明"
+      },
+      "dishwasher": {
+        "title": "洗碗机",
+        "desc": "洗涤块与程序"
+      },
+      "houseRules": {
+        "title": "入住须知",
+        "desc": "住宿规则"
+      },
+      "checkout": {
+        "title": "退房",
+        "desc": "离店前事项"
+      },
+      "explore": {
+        "title": "探索扎达尔",
+        "description": "地点与服务"
+      },
+      "emergency": {
+        "title": "紧急联络",
+        "description": "紧急联系电话"
+      },
+      "installGuide": {
+        "title": "安装指南",
+        "description": "添加到主屏幕"
+      }
+    }
+  },
+
+  "arrival": {
+    "title": "入住",
+    "subtitle": "入住说明、路线与门禁信息。",
+    "checkinLabel": "入住时间：",
+    "checkinText": "下午",
+    "earlyReady": "如果公寓提前准备好，我们会通知您。",
+    "entrancePathDescription": "建筑外观。",
+    "apartmentSlidesDescription": "电梯和楼梯。",
+    "lockboxSlidesDescription": "公寓门和钥匙盒。",
+    "enterBuilding": "进入大楼",
+    "address": "Polačišće 11",
+    "entranceText": "入口位于大楼内部一侧，而不是临街一侧。",
+    "viewEntrancePath": "查看入口路线",
+    "showEntranceCode": "显示大门密码",
+    "findApartment": "找到公寓",
+    "apartmentLocationText": "公寓位于3楼电梯左侧。如果乘坐电梯，出电梯后就在您的右手边。门上标有“Doe”。",
+    "viewApartmentLocation": "公寓位置",
+    "viewLockbox": "查看钥匙盒",
+    "showLockboxCode": "显示钥匙盒密码",
+    "letUsKnow": "请告知我们您已到达",
+    "arrivalMessage": "进入公寓后，请给我们发送一条简短消息，以便我们在 eVisitor 系统登记您的入住。",
+    "whatsappArrivalText": "您好！我们刚刚到达公寓。"
+  },
+
+  "parking": {
+    "title": "停车",
+    "subtitle": "停车位置及注意事项。"
+  },
+
+  "wifi": {
+    "title": "Wi-Fi",
+    "subtitle": "网络信息和 Wi-Fi 密码。",
+    "networkName": "网络名称",
+    "networkPassword": "网络密码",
+    "passwordCopied": "Wi-Fi 密码已复制",
+    "copyError": "无法复制密码"
+  },
+  "apartmentInfo": {
+    "title": "公寓信息",
+    "subtitle": "查找常用物品和生活用品的位置。",
+    "items": {
+      "ironingBoard": {
+        "title": "熨衣板",
+        "text": "位于厨房门后方，垃圾桶旁边。"
+      },
+      "applianceManuals": {
+        "title": "家电说明书",
+        "text": "位于厨房左侧橱柜内。"
+      },
+      "firstAidKit": {
+        "title": "急救箱",
+        "text": "位于电视柜右侧玻璃门后。"
+      },
+      "iron": {
+        "title": "熨斗",
+        "text": "位于浴室旁走廊柜子的左侧。"
+      },
+      "extraTowels": {
+        "title": "备用毛巾",
+        "text": "位于浴室旁走廊柜子的右侧。"
+      },
+      "hairDryer": {
+        "title": "吹风机",
+        "text": "位于浴室洗手池下方中间抽屉内。"
+      },
+      "washingMachineCapsules": {
+        "title": "洗衣凝珠",
+        "text": "位于浴室洗手池下方第一个抽屉内。"
+      }
+    }
+  },
+
+  "tv": {
+    "title": "电视",
+    "subtitle": "电视使用快速指南。",
+    "turnOn": {
+      "title": "打开电视",
+      "text": "使用小遥控器开启或关闭电视。"
+    },
+    "streaming": {
+      "title": "流媒体应用",
+      "text": "在主界面选择 YouTube、Netflix 或 HBO Max 图标。"
+    },
+    "channels": {
+      "title": "电视频道与 EON",
+      "text": "选择 HDMI 图标打开 EON，观看电视频道和点播内容。"
+    },
+    "remote": {
+      "text": "大遥控器仅在 EON 应用内使用。"
+    }
+  },
+
+  "coffeeMaker": {
+    "title": "咖啡机",
+    "subtitle": "Dolce Gusto 咖啡机使用说明。",
+    "steps": [
+      {
+        "title": "开启咖啡机",
+        "text": "按下电源按钮。加热过程中指示灯会闪烁红色。"
+      },
+      {
+        "title": "等待绿灯亮起",
+        "text": "当指示灯变为绿色时，咖啡机已准备就绪。"
+      },
+      {
+        "title": "取出胶囊托架",
+        "text": "打开顶部盖子并拉出胶囊托架。"
+      },
+      {
+        "title": "放入胶囊",
+        "text": "将咖啡胶囊放入托架内。"
+      },
+      {
+        "title": "重新装入托架",
+        "text": "将托架推回机器内并关闭顶部盖子。"
+      },
+      {
+        "title": "选择水量",
+        "text": "根据胶囊包装上显示的刻度调节水量。"
+      },
+      {
+        "title": "放置杯子",
+        "text": "将杯子放在出水口下方。"
+      },
+      {
+        "title": "制作咖啡",
+        "text": "将拨杆拨向红色一侧制作热饮。机器会自动停止。"
+      },
+      {
+        "title": "再次等待绿灯",
+        "text": "在取出胶囊前，请等待电源按钮再次变为绿色。"
+      },
+      {
+        "title": "取出用过的胶囊",
+        "text": "打开顶部盖子，取出胶囊托架并丢弃已使用的胶囊。请勿将用过的胶囊留在机器内。"
+      }
+    ],
+    "importantTitle": "☕ 重要提示：卡布奇诺与巧克力饮品",
+    "twoCapsules": "这些饮品需要使用两个胶囊。",
+    "milkCapsuleFirst": "请先使用牛奶胶囊。",
+    "waitGreenAgain": "等待电源按钮再次变为绿色。",
+    "thenUseCapsule": "然后再使用咖啡或巧克力胶囊。",
+    "waterTankTitle": "💧 重要：水箱位置",
+    "waterTankText1": "如果您重新加水或取下水箱，请确保将其正确放回原位。",
+    "waterTankText2": "当水箱插入后，底部出现几个小气泡时，表示水箱已正确安装。",
+    "waterTankWarning": "如果水箱未正确安装，咖啡机可能无法出水。"
+  },
+
+  "dishwasher": {
+    "title": "洗碗机",
+    "subtitle": "日常使用快速指南。",
+    "intro": "放入一颗洗碗凝珠，打开洗碗机，选择程序，然后按开始并关闭机门。",
+    "capsules": {
+      "title": "洗碗凝珠",
+      "text": "将一颗凝珠放入洗涤剂盒。凝珠位于水槽下方。"
+    },
+    "turnOn": {
+      "title": "开启洗碗机",
+      "text": "按下电源按钮（1）。"
+    },
+    "selectProgram": {
+      "title": "选择程序",
+      "text": "按 PROGR. 按钮（2）选择所需程序。"
+    },
+    "start": {
+      "title": "启动洗碗机",
+      "text": "按 START 按钮（3），然后关闭机门。"
+    },
+    "programsIntro": "根据餐具脏污程度选择以下程序。",
+    "table": {
+      "program": "程序",
+      "whenToUse": "适用情况",
+      "p1": "P1 – 强力洗 75°C",
+      "p1Use": "非常脏的餐具",
+      "p2": "P2 – 标准洗 50–60°C",
+      "p2Use": "适用于大多数情况",
+      "p3": "P3 – ECO 节能 45°C",
+      "p3Use": "节能模式",
+      "p4": "P4 – 快速洗 24分钟",
+      "p4Use": "快速清洗"
+    },
+    "manualText": "如需使用其他程序，请查看厨房橱柜内的说明书或打开下方完整手册。",
+    "manualButton": "完整洗碗机说明书（PDF）",
+    "alts": {
+      "power": "洗碗机电源按钮",
+      "program": "洗碗机程序按钮",
+      "start": "洗碗机启动按钮"
+    }
+  },
+
+  "houseRules": {
+    "title": "入住须知",
+    "subtitle": "请遵守以下简单规则，让每位客人都能享受舒适住宿体验。",
+    "checkinTimesTitle": "入住与退房时间",
+    "checkinCheckoutCardTitle": "入住 / 退房",
+    "checkinAfter": "入住时间：",
+    "checkoutBy": "退房时间：",
+    "respectTimes": "请遵守以上时间，以便我们为下一位客人做好准备。",
+    "noiseTitle": "噪音与邻居",
+    "quietHoursTitle": "安静时段与邻里礼仪",
+    "quietHoursIntro": "请遵守大楼安静时段规定：",
+    "noiseText1": "公寓位于住宅楼内，楼内有许多长期住户。请尽量控制音量，特别是在走廊、楼梯间和电梯内。",
+    "noiseText2": "如携带儿童入住，请避免他们在走廊、楼梯间或电梯内奔跑或大声玩耍，因为声音容易传播。",
+    "apartmentRulesTitle": "公寓规则",
+    "noSmokingTitle": "室内禁止吸烟",
+    "noSmokingText": "公寓内禁止吸烟，仅可在露台吸烟。",
+    "lockDoorTitle": "请锁好房门",
+    "lockDoorText": "即使您在公寓内，也请保持房门上锁。",
+    "reportDamagesTitle": "损坏请及时告知",
+    "reportDamagesText": "如果入住期间有任何物品损坏，请尽快通知我们。"
+  },
+
+  "checkout": {
+    "title": "退房",
+    "subtitle": "离开前请完成以下事项。",
+    "checkoutTimeTitle": "退房时间",
+    "checkoutTimeText": "请于",
+    "checkoutTimeReason": "之前离开公寓，以便我们为当天入住的下一位客人做好准备。",
+    "turnOffAcTitle": "关闭空调",
+    "turnOffAcText": "请关闭空调。",
+    "closeWindowsTitle": "关闭门窗",
+    "closeWindowsText": "离开前请关闭所有窗户和露台门。",
+    "turnOffLightsTitle": "关闭灯光",
+    "turnOffLightsText": "请关闭所有灯光。",
+    "parkingCardTitle": "停车卡",
+    "parkingCardText": "如果您使用了停车卡，请将其放回 14 号信箱。",
+    "lockDoorTitle": "锁好房门",
+    "lockDoorText": "请确认公寓门已锁好。",
+    "returnKeyTitle": "归还钥匙",
+    "returnKeyText": "请将钥匙放回钥匙盒，并打乱密码数字。",
+    "leaveMessageTitle": "离开后请通知我们",
+    "leaveMessageText": "离开后请发送消息通知我们，以便安排清洁。",
+    "whatsappLeaveText": "您好！我们已经离开公寓。"
+  },
+  "explore": {
+    "title": "探索扎达尔",
+    "subtitle": "扎达尔的地点、服务和景点。",
+    "openInMaps": "在 Google 地图中打开",
+    "categories": {
+      "beaches": "海滩",
+      "food": "餐饮",
+      "stores": "商店",
+      "attractions": "景点",
+      "health": "健康"
+    },
+    "places": {
+      "kolovare": {
+        "name": "Kolovare 海滩",
+        "badge": "步行 14 分钟",
+        "text": "最受欢迎的城市海滩，海水清澈，有阴凉区域，附近也有咖啡馆。"
+      },
+      "borik": {
+        "name": "Borik 海滩",
+        "badge": "驾车 13 分钟",
+        "text": "适合家庭的海滩，水较浅，附近有餐厅和许多便利设施。"
+      },
+      "uskok": {
+        "name": "Uskok 海滩",
+        "badge": "驾车 13 分钟",
+        "text": "位于 Puntamika 区域的热闹海滩，适合游泳、日光浴和海滩酒吧。"
+      },
+      "butler": {
+        "name": "Butler Gourmet & Cocktails",
+        "badge": "鸡尾酒与用餐",
+        "text": "现代餐厅和鸡尾酒吧，氛围时尚，菜品富有创意。"
+      },
+      "harbor": {
+        "name": "Harbor CookHouse",
+        "badge": "海滨用餐",
+        "text": "受欢迎的海滨餐厅，以出色的汉堡、牛排和鸡尾酒闻名。"
+      },
+      "bruschetta": {
+        "name": "Bruschetta",
+        "badge": "地中海料理",
+        "text": "扎达尔最知名的餐厅之一，提供靠近海边的地中海料理。"
+      },
+      "fosa": {
+        "name": "Foša",
+        "badge": "精致餐饮",
+        "text": "位于历史城墙和港口旁的精致餐厅。"
+      },
+      "kantuna": {
+        "name": "4 Kantuna",
+        "badge": "达尔马提亚料理",
+        "text": "位于老城中心的传统达尔马提亚餐厅，提供当地菜肴。"
+      },
+      "garden": {
+        "name": "The Garden Lounge",
+        "badge": "日落鸡尾酒",
+        "text": "欣赏海景日落并享用鸡尾酒的理想地点。"
+      },
+      "supernova": {
+        "name": "Supernova Zadar",
+        "badge": "购物中心",
+        "text": "扎达尔最大的购物中心，内有超市、餐厅和许多商店。"
+      },
+      "lidl": {
+        "name": "Lidl",
+        "badge": "日常食品杂货",
+        "text": "受欢迎的超市，适合购买食品、饮料和日常必需品。"
+      },
+      "kaufland": {
+        "name": "Kaufland",
+        "badge": "选择丰富",
+        "text": "大型超市，提供食品、家居用品和新鲜农产品。"
+      },
+      "cityGalleria": {
+        "name": "City Galleria",
+        "badge": "购物与市场",
+        "text": "购物中心，内有商店、咖啡馆和本地市场。"
+      },
+      "seaOrgan": {
+        "name": "海风琴",
+        "badge": "必看景点",
+        "text": "独特的建筑装置，利用海浪创造音乐。"
+      },
+      "greetingSun": {
+        "name": "向太阳致敬",
+        "badge": "日落景点",
+        "text": "太阳能灯光装置，最适合在日落时体验。"
+      },
+      "donat": {
+        "name": "圣多纳图斯教堂",
+        "badge": "历史地标",
+        "text": "扎达尔的象征，也是克罗地亚最重要的前罗曼式教堂之一。"
+      },
+      "forum": {
+        "name": "罗马广场",
+        "badge": "古代遗址",
+        "text": "亚得里亚海东岸最大的罗马广场。"
+      },
+      "peoplesSquare": {
+        "name": "人民广场",
+        "badge": "市中心",
+        "text": "扎达尔的历史中心，周围有咖啡馆和本地生活氛围。"
+      },
+      "kalelarga": {
+        "name": "Kalelarga",
+        "badge": "老城",
+        "text": "扎达尔最著名的街道，也是城市生活的中心。"
+      },
+      "cathedral": {
+        "name": "圣阿纳斯塔西娅大教堂",
+        "badge": "大教堂",
+        "text": "达尔马提亚最大的教堂，钟楼可俯瞰城市景色。"
+      },
+      "landGate": {
+        "name": "陆门",
+        "badge": "历史城门",
+        "text": "通往老城的历史入口，也是扎达尔威尼斯防御工事的一部分。"
+      },
+      "farmacia": {
+        "name": "Farmacia City Galleria",
+        "badge": "不提供处方药",
+        "text": "可购买止痛药、维生素、化妆品、防晒霜和日常健康用品。不提供处方药。"
+      },
+      "jadranPharmacy": {
+        "name": "Jadran 药房",
+        "badge": "24小时药房",
+        "text": "昼夜营业，包括周末和公共假日。可购买处方药和非处方药。"
+      },
+      "emergency": {
+        "name": "急诊部",
+        "badge": "紧急医疗",
+        "text": "适用于需要在扎达尔综合医院立即治疗的紧急医疗情况。"
+      },
+      "touristClinic": {
+        "name": "游客诊所",
+        "badge": "非紧急医疗",
+        "text": "为游客和访客提供非紧急健康问题的医疗服务，包括周末和公共假日。"
+      }
+    }
+  },
+  "emergency": {
+    "title": "紧急联系方式",
+    "subtitle": "克罗地亚的重要紧急电话号码。",
+    "infoText": "如遇任何紧急情况，请拨打 112。接线员可为您联系警方、救护车或消防部门。",
+    "contacts": {
+      "general": {
+        "title": "综合紧急电话",
+        "description": "适用于克罗地亚的任何紧急情况。"
+      },
+      "ambulance": {
+        "title": "救护车",
+        "description": "用于紧急医疗情况。"
+      },
+      "police": {
+        "title": "警察",
+        "description": "用于报警和安全相关问题。"
+      },
+      "fire": {
+        "title": "消防队",
+        "description": "用于火灾、浓烟或救援情况。"
+      }
+    },
+    "call": "拨打"
+  },
+
+  "invalidLink": {
+    "title": "客人指南不可用",
+    "description": "此客人指南链接无效、已过期或不再可用。",
+    "help": "请检查预订中的链接或联系房东。"
+  },
+  "loader": {
+    "title": "正在加载指南",
+    "description": "请稍候，我们正在为您准备客人指南。"
+  }
+}

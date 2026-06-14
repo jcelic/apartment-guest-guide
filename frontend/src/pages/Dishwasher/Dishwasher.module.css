@@ -1,0 +1,107 @@
+.intro {
+  margin: 0;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  opacity: 0;
+  animation: fadeUp 0.4s ease forwards;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: fadeUp 0.4s ease forwards;
+}
+
+.dishwasher img {
+  width: 100%;
+  max-width: 31.25rem;
+  margin-top: 1rem;
+  border-radius: var(--radius-image);
+}
+
+.programTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  margin-top: 1rem;
+  opacity: 0;
+  animation: fadeUp 0.4s ease forwards;
+}
+
+.programTable thead {
+  background: var(--color-accent-soft);
+}
+
+.programTable th {
+  text-align: left;
+  padding: 0.875rem 1.125rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.programTable td {
+  padding: 0.875rem 1.125rem;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+.programTable tbody tr + tr td {
+  border-top: 1px solid var(--color-border-soft);
+}
+
+.programTable tbody tr:hover {
+  background: var(--color-hover-surface);
+}
+
+.dishwasher h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 0;
+  animation: fadeUp 0.4s ease forwards;
+}
+
+.primaryBtn {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-width: 13.125rem;
+  padding: 0.63rem 0.94rem;
+  background: var(--color-accent-icon-strong);
+  color: var(--color-black);
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background var(--transition-slow);
+}
+
+.primaryBtn:hover {
+  background: var(--color-accent);
+}
+
+@media (max-width: 50.625rem) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

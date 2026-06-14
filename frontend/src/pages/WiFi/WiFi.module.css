@@ -1,0 +1,99 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1.5rem;
+  max-width: 56.25rem;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 22.5rem;
+  height: 100%;
+  padding: 1.25rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  transition: box-shadow var(--transition-slow);
+  opacity: 0;
+  animation: fadeUp 0.4s ease forwards;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-card-hover);
+}
+
+.cardTitle {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cardText {
+  min-height: 3.25rem;
+  margin: 0;
+  padding: 0 0.875rem;
+  background: var(--color-accent-soft);
+  border-radius: var(--radius-md);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.cardText span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.copyButton {
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  border-radius: var(--radius-sm);
+  padding: 0;
+  cursor: pointer;
+  color: var(--color-text);
+  transition:
+    background var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.copyButton:hover {
+  background: var(--color-border-soft);
+}
+
+.copyButton:active {
+  transform: scale(0.95);
+}
+
+.copyIcon,
+.checkIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
