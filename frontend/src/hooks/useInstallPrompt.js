@@ -1,7 +1,8 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
+
+let deferredPromptEvent = null;
 
 export function useInstallPrompt() {
-  const deferredPromptRef = useRef(null);
   const [isInstallable, setIsInstallable] = useState(false);
   const [showIosModal, setShowIosModal] = useState(false);
 
@@ -13,7 +14,7 @@ export function useInstallPrompt() {
     const handleBeforeInstallPrompt = (event) => {
       event.preventDefault();
 
-      deferredPromptRef.current = event;
+      deferredPromptEvent = event;
       setIsInstallable(true);
     };
 
@@ -33,16 +34,16 @@ export function useInstallPrompt() {
       return;
     }
 
-    if (!deferredPromptRef.current) {
+    if (!deferredPromptEvent) {
       return;
     }
 
-    deferredPromptRef.current.prompt();
+    await deferredPromptEvent.prompt();
 
-    const choiceResult = await deferredPromptRef.current.userChoice;
+    const choiceResult = await deferredPromptEvent.userChoice;
 
     if (choiceResult.outcome === 'accepted') {
-      deferredPromptRef.current = null;
+      deferredPromptEvent = null;
       setIsInstallable(false);
     }
   };
