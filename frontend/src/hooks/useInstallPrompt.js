@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export function useInstallPrompt() {
-  const [deferredPrompt, setDeferredPrompt] = useState(null);
+  const deferredPromptRef = useRef(null);
   const [isInstallable, setIsInstallable] = useState(false);
   const [showIosModal, setShowIosModal] = useState(false);
 
@@ -13,9 +13,8 @@ export function useInstallPrompt() {
     const handleBeforeInstallPrompt = (event) => {
       event.preventDefault();
 
-      setDeferredPrompt(event);
+      deferredPromptRef.current = event;
       setIsInstallable(true);
-      window.deferredPrompt = event;
     };
 
     window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
@@ -34,21 +33,17 @@ export function useInstallPrompt() {
       return;
     }
 
-    const promptEvent = deferredPrompt || window.deferredPrompt;
-
-    if (!promptEvent) {
-      alert('Use browser menu and choose Add to Home Screen.');
+    if (!deferredPromptRef.current) {
       return;
     }
 
-    promptEvent.prompt();
+    deferredPromptRef.current.prompt();
 
-    const choiceResult = await promptEvent.userChoice;
+    const choiceResult = await deferredPromptRef.current.userChoice;
 
     if (choiceResult.outcome === 'accepted') {
-      setDeferredPrompt(null);
+      deferredPromptRef.current = null;
       setIsInstallable(false);
-      window.deferredPrompt = null;
     }
   };
 
