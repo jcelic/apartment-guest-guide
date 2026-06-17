@@ -6,7 +6,8 @@ export function useInstallPrompt() {
   const [showIosModal, setShowIosModal] = useState(false);
 
   const isIOS =
-    /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
   useEffect(() => {
     const handleBeforeInstallPrompt = (event) => {
@@ -14,7 +15,6 @@ export function useInstallPrompt() {
 
       setDeferredPrompt(event);
       setIsInstallable(true);
-
       window.deferredPrompt = event;
     };
 

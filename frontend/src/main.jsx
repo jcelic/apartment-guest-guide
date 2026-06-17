@@ -21,11 +21,6 @@ registerSW({
   immediate: true,
 });
 
-window.addEventListener('beforeinstallprompt', (event) => {
-  event.preventDefault();
-  window.deferredPrompt = event;
-});
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>

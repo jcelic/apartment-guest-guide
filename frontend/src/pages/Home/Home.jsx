@@ -23,9 +23,11 @@ const Home = () => {
   usePageTitle(t('home.pageTitle'));
 
   const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-  const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+  const isStandalone =
+    window.matchMedia('(display-mode: standalone)').matches ||
+    window.navigator.standalone === true;
 
-  const { handleInstall } = useInstallPrompt();
+  const { handleInstall, showIosModal, setShowIosModal } = useInstallPrompt();
 
   return (
     <>
@@ -117,6 +119,23 @@ const Home = () => {
           />
         )}
       </div>
+
+      {showIosModal && (
+        <div className={styles.iosModal}>
+          <div className={styles.iosModalBox}>
+            <h3>Install on iPhone</h3>
+
+            <p>
+              Open this page in Safari, tap the Share button, then choose Add to
+              Home Screen.
+            </p>
+
+            <button type="button" onClick={() => setShowIosModal(false)}>
+              OK
+            </button>
+          </div>
+        </div>
+      )}
     </>
   );
 };
