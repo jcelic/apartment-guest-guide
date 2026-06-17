@@ -17,6 +17,12 @@ const queryClient = new QueryClient({
   },
 });
 
+window.addEventListener('beforeinstallprompt', (event) => {
+  event.preventDefault();
+  window.deferredPrompt = event;
+  window.dispatchEvent(new Event('pwa-install-available'));
+});
+
 registerSW({
   immediate: true,
 });

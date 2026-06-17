@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
 
-let deferredPromptEvent = null;
-
 export function useInstallPrompt() {
   const [isInstallable, setIsInstallable] = useState(false);
   const [showIosModal, setShowIosModal] = useState(false);
@@ -11,19 +9,18 @@ export function useInstallPrompt() {
     (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 
   useEffect(() => {
-    const handleBeforeInstallPrompt = (event) => {
-      event.preventDefault();
-
-      deferredPromptEvent = event;
-      setIsInstallable(true);
+    const handleInstallAvailable = () => {
+      setIsInstallable(Boolean(window.deferredPrompt));
     };
 
-    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
+    handleInstallAvailable();
+
+    window.addEventListener('pwa-install-available', handleInstallAvailable);
 
     return () => {
       window.removeEventListener(
-        'beforeinstallprompt',
-        handleBeforeInstallPrompt,
+        'pwa-install-available',
+        handleInstallAvailable,
       );
     };
   }, []);
@@ -34,18 +31,21 @@ export function useInstallPrompt() {
       return;
     }
 
-    if (!deferredPromptEvent) {
+    const promptEvent = window.deferredPrompt;
+
+    if (!promptEvent) {
+      console.log('PWA install prompt is not available yet.');
       return;
     }
 
-    await deferredPromptEvent.prompt();
+    await promptEvent.prompt();
 
-    const choiceResult = await deferredPromptEvent.userChoice;
+    const choiceResult = await promptEvent.userChoice;
 
-    if (choiceResult.outcome === 'accepted') {
-      deferredPromptEvent = null;
-      setIsInstallable(false);
-    }
+    window.deferredPrompt = null;
+    setIsInstallable(false);
+
+    console.log('PWA install result:', choiceResult.outcome);
   };
 
   return {
