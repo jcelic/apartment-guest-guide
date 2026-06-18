@@ -7,27 +7,17 @@ import {
   LuUtensils,
   LuListChecks,
   LuDoorOpen,
-  LuSmartphone,
 } from 'react-icons/lu';
 import { IoTvOutline, IoInformationCircleOutline } from 'react-icons/io5';
 import { MdCoffeeMaker } from 'react-icons/md';
 import usePageTitle from '../../hooks/usePageTitle';
 import { useTranslation } from 'react-i18next';
 import { FiMapPin } from 'react-icons/fi';
-import { useInstallPrompt } from '../../hooks/useInstallPrompt';
-
 import { LuTriangleAlert } from 'react-icons/lu';
 
 const Home = () => {
   const { t } = useTranslation();
   usePageTitle(t('home.pageTitle'));
-
-  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-  const isStandalone =
-    window.matchMedia('(display-mode: standalone)').matches ||
-    window.navigator.standalone === true;
-
-  const { handleInstall, showIosModal, setShowIosModal } = useInstallPrompt();
 
   return (
     <>
@@ -109,33 +99,7 @@ const Home = () => {
           desc={t('home.cards.emergency.description')}
           to="emergency"
         />
-
-        {isMobile && !isStandalone && (
-          <HomeCard
-            title={t('home.cards.installGuide.title')}
-            icon={<LuSmartphone />}
-            desc={t('home.cards.installGuide.description')}
-            onClick={handleInstall}
-          />
-        )}
       </div>
-
-      {showIosModal && (
-        <div className={styles.iosModal}>
-          <div className={styles.iosModalBox}>
-            <h3>Install on iPhone</h3>
-
-            <p>
-              Open this page in Safari, tap the Share button, then choose Add to
-              Home Screen.
-            </p>
-
-            <button type="button" onClick={() => setShowIosModal(false)}>
-              OK
-            </button>
-          </div>
-        </div>
-      )}
     </>
   );
 };

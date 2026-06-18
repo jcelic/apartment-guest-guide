@@ -67,10 +67,6 @@
       "emergency": {
         "title": "Notrufnummern",
         "description": "Notfallkontakte"
-      },
-      "installGuide": {
-        "title": "Guide installieren",
-        "description": "Zum Startbildschirm hinzufügen"
       }
     }
   },

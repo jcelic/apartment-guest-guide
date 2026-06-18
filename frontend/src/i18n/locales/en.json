@@ -67,10 +67,6 @@
       "emergency": {
         "title": "Emergency",
         "description": "Emergency contacts"
-      },
-      "installGuide": {
-        "title": "Install Guide",
-        "description": "Add to Home Screen"
       }
     }
   },

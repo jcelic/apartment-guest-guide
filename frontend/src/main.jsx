@@ -1,7 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { registerSW } from 'virtual:pwa-register';
 
 import './index.css';
 import './i18n';
@@ -15,16 +14,6 @@ const queryClient = new QueryClient({
       refetchOnWindowFocus: false,
     },
   },
-});
-
-window.addEventListener('beforeinstallprompt', (event) => {
-  event.preventDefault();
-  window.deferredPrompt = event;
-  window.dispatchEvent(new Event('pwa-install-available'));
-});
-
-registerSW({
-  immediate: true,
 });
 
 createRoot(document.getElementById('root')).render(

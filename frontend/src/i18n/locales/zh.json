@@ -70,10 +70,6 @@
       "emergency": {
         "title": "紧急联络",
         "description": "紧急联系电话"
-      },
-      "installGuide": {
-        "title": "安装指南",
-        "description": "添加到主屏幕"
       }
     }
   },

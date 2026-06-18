@@ -88,7 +88,7 @@ https://apartment-guest-guide.vercel.app/guide/jhkfds78643kjhfdwjkfjkssdifz72341
 - Multi-language support
 - Copy-to-clipboard actions
 - Modern card-based UI
-- Installable as a Progressive Web App (PWA)
+- Implemented PWA support and achieved a smooth installation experience on Android, but ultimately removed it because equivalent behavior could not be reliably provided on iOS.
 
 ---
 

@@ -67,10 +67,6 @@
       "emergency": {
         "title": "Hitni kontakti",
         "description": "Brojevi za hitne slučajeve"
-      },
-      "installGuide": {
-        "title": "Instaliraj vodič",
-        "description": "Dodaj na početni zaslon"
       }
     }
   },

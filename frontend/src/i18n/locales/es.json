@@ -79,10 +79,6 @@
       "emergency": {
         "title": "Emergencias",
         "description": "Contactos de emergencia"
-      },
-      "installGuide": {
-        "title": "Instalar guía",
-        "description": "Añadir a la pantalla de inicio"
       }
     }
   },

@@ -67,10 +67,6 @@
       "emergency": {
         "title": "Emergenze",
         "description": "Contatti di emergenza"
-      },
-      "installGuide": {
-        "title": "Installa la guida",
-        "description": "Aggiungi alla schermata Home"
       }
     }
   },
