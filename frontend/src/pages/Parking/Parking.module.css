@@ -1,0 +1,67 @@
+.parking {
+  padding-bottom: 2rem;
+}
+
+.infoBox {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+
+  max-width: 50rem;
+  margin-top: 1.5rem;
+
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+
+  background: var(--color-accent-bg-strong);
+
+  opacity: 0;
+  animation: fadeUp 0.4s ease forwards;
+}
+
+.icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.infoBox h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.infoBox p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.infoBox p + p {
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 37.5rem) {
+  .infoBox {
+    padding: 1.25rem;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .infoBox h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
