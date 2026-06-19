@@ -13,12 +13,6 @@ const GuideLayout = () => {
 
   const { data: reservation, isLoading, isError } = useReservation(token);
 
-  useEffect(() => {
-    if (reservation && !isError) {
-      localStorage.setItem('lastGuidePath', `/guide/${token}`);
-    }
-  }, [reservation, isError, token]);
-
   const isHome = !!useMatch({
     path: '/guide/:token',
     end: true,

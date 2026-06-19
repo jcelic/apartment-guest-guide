@@ -14,17 +14,6 @@ import { Toaster } from 'react-hot-toast';
 import Explore from './pages/Explore/Explore';
 import EmergencyContacts from './pages/EmergencyContacts/EmergencyContacts';
 import InvalidLink from './components/InvalidLink/InvalidLink';
-import { Navigate } from 'react-router-dom';
-
-const RootRedirect = () => {
-  const lastGuidePath = localStorage.getItem('lastGuidePath');
-
-  if (lastGuidePath) {
-    return <Navigate to={lastGuidePath} replace />;
-  }
-
-  return <InvalidLink />;
-};
 
 const App = () => {
   return (
@@ -33,7 +22,7 @@ const App = () => {
 
       <Router>
         <Routes>
-          <Route path="/" element={<RootRedirect />} />
+          <Route path="/" element={<InvalidLink />} />
           <Route path="/guide" element={<InvalidLink />} />
 
           <Route path="/guide/:token" element={<GuideLayout />}>
