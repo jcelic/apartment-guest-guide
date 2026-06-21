@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { MdErrorOutline } from 'react-icons/md';
 import styles from './InvalidLink.module.css';
 
-export default function InvalidLink() {
+const InvalidLink = () => {
   const { t } = useTranslation();
 
   return (
@@ -20,4 +20,6 @@ export default function InvalidLink() {
       </div>
     </div>
   );
-}
+};
+
+export default InvalidLink;

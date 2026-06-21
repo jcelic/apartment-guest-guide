@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import styles from './FullPageLoader.module.css';
 
-export default function FullPageLoader() {
+const FullPageLoader = () => {
   const { t } = useTranslation();
 
   return (
@@ -15,4 +15,6 @@ export default function FullPageLoader() {
       </div>
     </div>
   );
-}
+};
+
+export default FullPageLoader;
