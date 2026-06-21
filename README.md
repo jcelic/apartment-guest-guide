@@ -13,6 +13,8 @@ Each reservation receives its own unique access token which is validated by the 
 
 The application is designed for real guests staying in my apartment and acts as a digital guest guide available before and throughout their stay.
 
+Parking information and most real apartment photos are not available in the demo version.
+
 ---
 
 ## Live Demo
@@ -299,8 +301,3 @@ http://localhost:5173/guide/jhkfds78643kjhfdwjkfjkssdifz72341
 ```
 
 ---
-
-## Future Improvements
-
-- Parking information and instructions
-- Real photos
