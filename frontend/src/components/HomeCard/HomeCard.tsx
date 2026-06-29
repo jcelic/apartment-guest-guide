@@ -5,23 +5,12 @@ type HomeCardProps = {
   icon: React.ReactNode;
   title: string;
   desc: string;
-  to?: string;
-  onClick?: () => void;
+  to: string;
 };
 
-const HomeCard = ({ icon, title, desc, to, onClick }: HomeCardProps) => {
-  if (onClick && !to) {
-    return (
-      <button type="button" className={styles.card} onClick={onClick}>
-        {icon}
-        <h2>{title}</h2>
-        <p>{desc}</p>
-      </button>
-    );
-  }
-
+const HomeCard = ({ icon, title, desc, to }: HomeCardProps) => {
   return (
-    <Link to={to!} className={styles.card}>
+    <Link to={to} className={styles.card}>
       {icon}
       <h2>{title}</h2>
       <p>{desc}</p>
