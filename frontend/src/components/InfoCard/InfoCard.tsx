@@ -1,6 +1,13 @@
 import styles from './InfoCard.module.css';
 
-const InfoCard = ({ icon, title, children, className = '' }) => {
+type InfoCardProps = {
+  icon: React.ReactNode;
+  title: string;
+  children: React.ReactNode;
+  className?: string;
+};
+
+const InfoCard = ({ icon, title, children, className = '' }: InfoCardProps) => {
   const variantClass = className ? styles[className] : '';
 
   return (
