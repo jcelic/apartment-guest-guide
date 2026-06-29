@@ -1,7 +1,15 @@
 import { Link } from 'react-router-dom';
 import styles from './HomeCard.module.css';
 
-const HomeCard = ({ icon, title, desc, to, onClick }) => {
+type HomeCardProps = {
+  icon: React.ReactNode;
+  title: string;
+  desc: string;
+  to?: string;
+  onClick?: () => void;
+};
+
+const HomeCard = ({ icon, title, desc, to, onClick }: HomeCardProps) => {
   if (onClick && !to) {
     return (
       <button type="button" className={styles.card} onClick={onClick}>
@@ -13,7 +21,7 @@ const HomeCard = ({ icon, title, desc, to, onClick }) => {
   }
 
   return (
-    <Link to={to} className={styles.card}>
+    <Link to={to!} className={styles.card}>
       {icon}
       <h2>{title}</h2>
       <p>{desc}</p>
